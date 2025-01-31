@@ -2,7 +2,7 @@ var express = require('express');
 var app = express.Router();
 var Customer = require('../models/customers');
 var Transaction = require('../models/transaction');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 
 
